@@ -1,0 +1,49 @@
+Important terms from chapter one - 
+
+data mining - applying ML techniques to large amounts of data can hep discover patterns that were not immediately apparent.
+
+
+MOST IMPORTANT supervised ML Algos - 
+  KNN
+  Linear regression
+  logistic regression
+  SVMs
+  Decision trees and random forests
+  Neural Networks
+
+MOST IMPORTANT Unsupervised ML techniques - 
+  Clustering
+  Anomlay detection and novelty detection
+  Dimensionality reduction
+  association rule learning
+
+
+Batch v Online Learning -
+  batch - incapable of incremental learning
+  Online - trains by feeding data instances sequentially (mini batches)
+         - Imp parameter - 'learning rate'-> is how fast online systems adapt to changing data
+
+Training a model means finding the parameters to best fit your data
+
+Sampling bias -  occurs when a sample used in a study or survey does not accurately represent the population it is intended to reflect
+This bias happens when certain groups are either overrepresented or underrepresented in the sample.
+
+feature engineering - 
+  involves feature selection - selecting the most useful features to train on among the existing features
+  and feature extraction - combining existing features to produce more useful ones
+
+
+
+Overfitting - model performs well on training data but does not generalize well
+
+Happens when - 
+  - model is too complex relative to the amount and noisiness of the data
+Possible solutions are -
+  -  Simplify the model by reducing parameters/ by reducing attributes in training data/ 
+  -  by constraining the model - called regularization -> makes model simpler (to avoid overfitting) by reducing degrees of freedom by reducing model parameters
+Amount of regularisation is controlled by byper parameters
+  -  gather more data
+  -  reduce noise in data
+
+
+
